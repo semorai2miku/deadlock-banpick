@@ -52,3 +52,5 @@ npm run dev:frontend
 
 - 前端：[http://localhost:5174](http://localhost:5174)
 - 后端：[http://localhost:3000](http://localhost:3000)
+
+一个浏览器最多可以测试模拟2名用户（默认+无痕）

@@ -29,7 +29,7 @@
 npm install
 ```
 
-复制 [server/.env.example](/C:/APP/programs/shixi/deadlock-banpick/server/.env.example) 为 `server/.env`，填入你的 MySQL 连接信息。
+复制 `server/.env.example` 为 `server/.env`，填入你的 MySQL 连接信息。
 
 例如：
 

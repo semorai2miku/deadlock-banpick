@@ -1,0 +1,112 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String       @id @default(cuid())
+  name         String
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+  hostedRooms  Room[]       @relation("RoomHost")
+  memberships  RoomMember[]
+  actions      DraftAction[]
+}
+
+model Room {
+  id               String       @id @default(cuid())
+  code             String       @unique
+  name             String       @default("Legacy Room")
+  passwordHash     String       @default("")
+  status           RoomStatus   @default(WAITING)
+  hostId           String
+  timeLimitSeconds Int          @default(30)
+  draftRules       Json?
+  isPublic         Boolean      @default(true)
+  allowSpectators  Boolean      @default(true)
+  host             User         @relation("RoomHost", fields: [hostId], references: [id])
+  createdAt        DateTime     @default(now())
+  updatedAt        DateTime     @updatedAt
+  expiresAt        DateTime     @default(now())
+  members          RoomMember[]
+  matches          Match[]
+}
+
+model RoomMember {
+  id       String    @id @default(cuid())
+  roomId   String
+  userId   String
+  role     RoomRole
+  side     TeamSide?
+  joinedAt DateTime  @default(now())
+  room     Room      @relation(fields: [roomId], references: [id], onDelete: Cascade)
+  user     User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([roomId, userId])
+  @@index([roomId, role])
+}
+
+model Match {
+  id               String        @id @default(cuid())
+  roomId           String
+  room             Room          @relation(fields: [roomId], references: [id], onDelete: Cascade)
+  status           MatchStatus   @default(WAITING)
+  currentTurnIndex Int           @default(0)
+  startedAt        DateTime      @default(now())
+  turnStartedAt    DateTime      @default(now())
+  pausedAt         DateTime?
+  finishedAt       DateTime?
+  actions          DraftAction[]
+
+  @@index([roomId])
+}
+
+model DraftAction {
+  id         String           @id @default(cuid())
+  matchId     String
+  match       Match            @relation(fields: [matchId], references: [id], onDelete: Cascade)
+  actorId     String
+  actor       User             @relation(fields: [actorId], references: [id], onDelete: Cascade)
+  side        TeamSide
+  actionType  DraftActionType
+  heroName    String
+  turnOrder   Int
+  createdAt   DateTime         @default(now())
+
+  @@index([matchId, turnOrder])
+}
+
+enum RoomStatus {
+  WAITING
+  DRAFTING
+  PAUSED
+  FINISHED
+}
+
+enum MatchStatus {
+  WAITING
+  DRAFTING
+  PAUSED
+  FINISHED
+  CANCELED
+}
+
+enum RoomRole {
+  HOST
+  PARTICIPANT
+  SPECTATOR
+}
+
+enum TeamSide {
+  BLUE
+  RED
+}
+
+enum DraftActionType {
+  BAN
+  PICK
+}

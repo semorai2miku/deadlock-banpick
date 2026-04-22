@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.local
+.DS_Store
+coverage/
+frontend/dist/
+server/dist/
+prisma/dev.db
+temp_oldgods*

@@ -1,0 +1,230 @@
+[
+  {
+    "heroName": "Infernus",
+    "localName": "Inferno",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/inferno_card.png",
+    "file": "Inferno_card.png"
+  },
+  {
+    "heroName": "Sete",
+    "localName": "Sete",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/gigawatt_card.png",
+    "file": "Sete_card.png"
+  },
+  {
+    "heroName": "Vindicta",
+    "localName": "Vindicta",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/hornet_card.png",
+    "file": "Vindicta_card.png"
+  },
+  {
+    "heroName": "Lady Geist",
+    "localName": "Lady_Geist",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/spectre_card.png",
+    "file": "Lady_Geist_card.png"
+  },
+  {
+    "heroName": "Abrams",
+    "localName": "Abrams",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/bull_card.png",
+    "file": "Abrams_card.png"
+  },
+  {
+    "heroName": "Espectra",
+    "localName": "Espectra",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/wraith_card.png",
+    "file": "Espectra_card.png"
+  },
+  {
+    "heroName": "McGinnis",
+    "localName": "McGinnis",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/engineer_card.png",
+    "file": "McGinnis_card.png"
+  },
+  {
+    "heroName": "Paradoxa",
+    "localName": "Paradoxa",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/chrono_card.png",
+    "file": "Paradoxa_card.png"
+  },
+  {
+    "heroName": "Dínamo",
+    "localName": "Dínamo",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/sumo_card.png",
+    "file": "Dínamo_card.png"
+  },
+  {
+    "heroName": "Kelvin",
+    "localName": "Kelvin",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/kelvin_card.png",
+    "file": "Kelvin_card.png"
+  },
+  {
+    "heroName": "Bruma",
+    "localName": "Bruma",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/haze_card.png",
+    "file": "Bruma_card.png"
+  },
+  {
+    "heroName": "Holliday",
+    "localName": "Holliday",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/astro_card.png",
+    "file": "Holliday_card.png"
+  },
+  {
+    "heroName": "Bebop",
+    "localName": "Bebop",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/bebop_card.png",
+    "file": "Bebop_card.png"
+  },
+  {
+    "heroName": "Calico",
+    "localName": "Calico",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/nano_card.png",
+    "file": "Calico_card.png"
+  },
+  {
+    "heroName": "Garra Cinza",
+    "localName": "Garra_Cinza",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/archer_card.png",
+    "file": "Garra_Cinza_card.png"
+  },
+  {
+    "heroName": "Mo e Krill",
+    "localName": "Mo_e_Krill",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/digger_card.png",
+    "file": "Mo_e_Krill_card.png"
+  },
+  {
+    "heroName": "Adaga",
+    "localName": "Adaga",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/shiv_card.png",
+    "file": "Adaga_card.png"
+  },
+  {
+    "heroName": "Hera",
+    "localName": "Hera",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/tengu_card.png",
+    "file": "Hera_card.png"
+  },
+  {
+    "heroName": "Guarda",
+    "localName": "Guarda",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/warden_card.png",
+    "file": "Guarda_card.png"
+  },
+  {
+    "heroName": "Yamato",
+    "localName": "Yamato",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/yamato_card.png",
+    "file": "Yamato_card.png"
+  },
+  {
+    "heroName": "Chico",
+    "localName": "Chico",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/lash_card.png",
+    "file": "Chico_card.png"
+  },
+  {
+    "heroName": "Viscoso",
+    "localName": "Viscoso",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/viscous_card.png",
+    "file": "Viscoso_card.png"
+  },
+  {
+    "heroName": "Mala",
+    "localName": "Mala",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/synth_card.png",
+    "file": "Mala_card.png"
+  },
+  {
+    "heroName": "Miragem",
+    "localName": "Miragem",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/mirage_card.png",
+    "file": "Miragem_card.png"
+  },
+  {
+    "heroName": "Víbora",
+    "localName": "Víbora",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/kali_card.png",
+    "file": "Víbora_card.png"
+  },
+  {
+    "heroName": "Sinclair",
+    "localName": "Sinclair",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/magician_card.png",
+    "file": "Sinclair_card.png"
+  },
+  {
+    "heroName": "Mina",
+    "localName": "Mina",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/vampirebat_card.png",
+    "file": "Mina_card.png"
+  },
+  {
+    "heroName": "Andarilho",
+    "localName": "Andarilho",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/drifter_card.png",
+    "file": "Andarilho_card.png"
+  },
+  {
+    "heroName": "Venador",
+    "localName": "Venador",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/priest_card.png",
+    "file": "Venador_card.png"
+  },
+  {
+    "heroName": "Victor",
+    "localName": "Victor",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/frank_card.png",
+    "file": "Victor_card.png"
+  },
+  {
+    "heroName": "Gina",
+    "localName": "Gina",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/bookworm_card.png",
+    "file": "Gina_card.png"
+  },
+  {
+    "heroName": "Porteiro",
+    "localName": "Porteiro",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/doorman_card.png",
+    "file": "Porteiro_card.png"
+  },
+  {
+    "heroName": "Billy",
+    "localName": "Billy",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/punkgoat_card.png",
+    "file": "Billy_card.png"
+  },
+  {
+    "heroName": "Mortícia",
+    "localName": "Mortícia",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/necro_card.png",
+    "file": "Mortícia_card.png"
+  },
+  {
+    "heroName": "Apollo",
+    "localName": "Apollo",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/fencer_card.png",
+    "file": "Apollo_card.png"
+  },
+  {
+    "heroName": "Rem",
+    "localName": "Rem",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/familiar_card.png",
+    "file": "Rem_card.png"
+  },
+  {
+    "heroName": "Prata",
+    "localName": "Prata",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/werewolf_card.png",
+    "file": "Prata_card.png"
+  },
+  {
+    "heroName": "Celeste",
+    "localName": "Celeste",
+    "url": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/unicorn_card.png",
+    "file": "Celeste_card.png"
+  }
+]

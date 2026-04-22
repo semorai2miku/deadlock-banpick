@@ -8,3 +8,4 @@ frontend/dist/
 server/dist/
 prisma/dev.db
 temp_oldgods*
+docs/

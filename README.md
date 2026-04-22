@@ -8,7 +8,7 @@
 
 - 大厅浏览公开房间，支持搜索房间名和房间码
 - 房主创建房间，使用 4 位数字密码控制访问
-- 房主、参与者、观众三类角色分工明确
+- 角色分为房主、参与者、观众
 - 支持开始 BP、交换阵营、暂停、恢复、返回上一步、重置房间、删除房间
 - 观众可实时看到对局进度，但不能参与操作
 - 房间创建 2 小时后自动过期清理
@@ -52,8 +52,3 @@ npm run dev:frontend
 
 - 前端：[http://localhost:5174](http://localhost:5174)
 - 后端：[http://localhost:3000](http://localhost:3000)
-
-## 文档
-
-- 架构说明：[docs/ARCHITECTURE.md](/C:/APP/programs/shixi/deadlock-banpick/docs/ARCHITECTURE.md)
-- 实时通信说明：[docs/REALTIME_SOCKET_GUIDE.md](/C:/APP/programs/shixi/deadlock-banpick/docs/REALTIME_SOCKET_GUIDE.md)

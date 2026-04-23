@@ -1,14 +1,6 @@
 const bpBackgroundUrl = new URL("../../../assets/Background/Bp-Background.png", import.meta.url).href;
 const hiddenKingUrl = new URL("../../../assets/Background/HiddenKing.png", import.meta.url).href;
 const archMotherUrl = new URL("../../../assets/Background/Arch Mother.png", import.meta.url).href;
-const cardBackerUrl = new URL(
-  "../../../assets/UiDownloads/BpBackgrounds/main_menu_pick_screen_card_backer_png.png",
-  import.meta.url,
-).href;
-const cardBorderUrl = new URL(
-  "../../../assets/UiDownloads/BpBackgrounds/main_menu_pick_screen_card_border_png.png",
-  import.meta.url,
-).href;
 
 const heroIcons = {
   Abrams: new URL("../../../assets/HeroIcon/Abrams_icon.png", import.meta.url).href,
@@ -243,7 +235,5 @@ export function getHeroCardUrl(heroName: string) {
 export {
   archMotherUrl,
   bpBackgroundUrl,
-  cardBackerUrl,
-  cardBorderUrl,
   hiddenKingUrl,
 };

@@ -21,6 +21,9 @@
             <button class="button-secondary" type="button" @click="openJoinModal">
               输入房间码
             </button>
+            <button class="button-secondary" type="button" @click="goToLocalDraft">
+              本地演示模式
+            </button>
             <button class="button-secondary ghost-button" type="button" @click="store.refreshLobby">
               {{ store.lobbyLoading ? "刷新中..." : "刷新大厅" }}
             </button>
@@ -464,6 +467,10 @@ async function handleJoinByCode() {
 
 async function goToRoom(roomId: string) {
   await router.push(`/room/${roomId}`);
+}
+
+async function goToLocalDraft() {
+  await router.push("/local-draft");
 }
 
 onMounted(() => {

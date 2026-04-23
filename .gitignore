@@ -5,8 +5,11 @@ dist/
 .DS_Store
 coverage/
 frontend/dist/
+frontend/dist-standalone/
 server/dist/
+server/dist-standalone/
 prisma/dev.db
 temp_oldgods*
 docs/
 DEPLOYMENT.md
+LOCAL_STANDALONE.md

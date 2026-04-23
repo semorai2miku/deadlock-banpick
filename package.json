@@ -10,6 +10,10 @@
     "dev:frontend": "npm run dev --workspace frontend",
     "dev:server": "npm run dev --workspace server",
     "build": "npm run build --workspace frontend && npm run build --workspace server",
+    "build:standalone": "npm run build:standalone --workspace frontend && node scripts/copy-standalone-runner.cjs",
+    "serve:standalone": "node scripts/serve-standalone.cjs",
+    "start:standalone": "node scripts/launch-standalone.cjs",
+    "stop:standalone": "node scripts/stop-standalone.cjs",
     "lint": "npm run lint --workspace frontend && npm run lint --workspace server",
     "prisma:generate": "npm run prisma:generate --workspace server",
     "prisma:migrate": "npm run prisma:migrate --workspace server"

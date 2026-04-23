@@ -4,7 +4,7 @@
 一个基于 `Vite + Vue 3 + TypeScript + Express + Socket.IO + MySQL + Prisma` 的 Deadlock 外部 Ban/Pick 平台。
 
 项目当前已经具备完整的房间大厅、密码房间、房主控制、参与者实时 BP、观众观战、暂停恢复、回合倒计时、数据库持久化和大厅列表同步能力，并且新增本地使用模式。
-#### 视频链接：
+#### 视频链接：https://www.bilibili.com/video/BV14MoYBLEBU/
 
 ## 功能概览
 

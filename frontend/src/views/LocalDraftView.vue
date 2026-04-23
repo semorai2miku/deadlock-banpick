@@ -278,6 +278,29 @@
           </button>
           <button class="button-secondary" type="button" @click="resetDraft">重置对局</button>
         </div>
+
+        <template v-if="!isSpectatorMode">
+          <nav class="author-links" aria-label="Author links">
+            <a
+              class="author-link"
+              href="https://github.com/semorai2miku"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+            <a
+              class="author-link"
+              href="https://space.bilibili.com/1497758558"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Bilibili
+            </a>
+          </nav>
+        </template>
+
+        <p class="author-credit">作者：semorai_miku@bilibili</p>
       </section>
     </section>
   </main>
@@ -887,6 +910,10 @@ onBeforeUnmount(() => {
 .seat-copy span { font-size: 0.62rem; color: rgba(248, 240, 223, 0.62); }
 .seat-copy strong { font-size: 0.72rem; line-height: 1.1; }
 .bp-bottom { display: flex; flex-direction: column; justify-content: center; gap: 18px; align-items: center; margin-top: 14px; padding: 4px 0; }
+.author-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.author-link { padding: 8px 14px; border-radius: 999px; border: 1px solid rgba(255, 255, 255, 0.12); background: rgba(255, 255, 255, 0.05); color: #f8f0df; text-decoration: none; transition: 160ms ease; }
+.author-link:hover { transform: translateY(-1px); border-color: rgba(233, 210, 161, 0.5); color: #fff3d1; }
+.author-credit { margin: -6px 0 0; font-size: 0.82rem; letter-spacing: 0.04em; color: rgba(248, 240, 223, 0.68); text-align: center; }
 .member-pill { padding: 8px 12px; border-radius: 999px; background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.08); }
 .helper-copy { margin: 0; text-align: center; color: rgba(248, 240, 223, 0.7); }
 .button-primary, .button-secondary, .time-option { padding: 10px 16px; border-radius: 999px; border: 1px solid transparent; font: inherit; cursor: pointer; transition: 160ms ease; }

@@ -1,8 +1,10 @@
 # Deadlock BanPick
 
+
 一个基于 `Vite + Vue 3 + TypeScript + Express + Socket.IO + MySQL + Prisma` 的 Deadlock 外部 Ban/Pick 平台。
 
-项目当前已经具备完整的房间大厅、密码房间、房主控制、参与者实时 BP、观众观战、暂停恢复、回合倒计时、数据库持久化和大厅列表同步能力。
+项目当前已经具备完整的房间大厅、密码房间、房主控制、参与者实时 BP、观众观战、暂停恢复、回合倒计时、数据库持久化和大厅列表同步能力，并且新增本地使用模式。
+#### 视频链接：
 
 ## 功能概览
 
@@ -21,7 +23,21 @@
 - 数据库：`MySQL`
 - ORM：`Prisma`
 
-## 本地运行
+## 直播使用推荐：本地运行（个人使用必看）
+- 个人使用推荐，无需依赖服务器和数据库
+- 新增本地操作模式，个人单独完成，不包含大厅功能，不包含多用户使用。
+- 两种方式
+1.使用已经打包好的文件，在github-Releases下载，查看其中的Readme.md使用说明。
+2.自行打包，在项目根目录执行：
+```bash
+npm install
+npm run build:standalone
+```
+打包后文件目录为`frontend\dist-standalone`，自带启动脚本
+注意：本机需要运行环境`node.js`,`start-standalone.bat`为启动脚本,`stop-standalone.bat`为关闭脚本。开箱即用，建议参考开头视频教程。
+
+
+## 编译环境运行
 
 在项目根目录执行：
 
@@ -54,3 +70,4 @@ npm run dev:frontend
 - 后端：[http://localhost:3000](http://localhost:3000)
 
 一个浏览器最多可以测试模拟2名用户（默认+无痕）
+
